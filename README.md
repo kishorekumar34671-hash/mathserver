@@ -30,7 +30,7 @@ Publish the website in the given URL.
 
 # PROGRAM :
 ```
-math.html 
+math.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,12 +38,15 @@ math.html
     <meta charset="UTF-8">
     <title>Lamp Power Calculator</title>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            background: #f0f0f0; 
+        body{
+           background: linear-gradient(to right, #00c6ff, #0072ff);
+           font-family: Arial, sans-serif; 
+            
             text-align: center; 
             margin-top: 80px;
+
         }
+       
         .box {
             background: white;
             padding: 20px;
@@ -87,8 +90,11 @@ math.html
     </div>
 </body>
 </html>
+```
+
 
 views.py
+```
 
 from django.shortcuts import render
 
@@ -106,8 +112,10 @@ def kishore(request):
             power = "Invalid input"
             print("Error: Invalid input")     # Debug print
     return render(request, "math.html", {"power": power})
-
+```
 urls.py
+
+```
 
 from django.contrib import admin
 from django.urls import path
@@ -115,8 +123,8 @@ from get import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('', views.kishore, name='kishore'),
-]
+     path('', views.kishore, name='kishore')]
+
 
 
 
@@ -126,6 +134,7 @@ urlpatterns = [
 ![alt text](<Screenshot 2025-09-30 133412.png>)
 # HOMEPAGE:
 ![alt text](<Screenshot 2025-09-30 110809.png>)
+
 
 
 # RESULT:
