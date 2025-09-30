@@ -133,9 +133,7 @@ urlpatterns = [
 # SERVER SIDE PROCESSING:
 ![alt text](<Screenshot 2025-09-30 133412.png>)
 # HOMEPAGE:
-<img width="1920" height="1080" alt="Screenshot 2025-09-30 141711" src="https://github.com/user-attachments/assets/6193b9c3-415e-4e4a-aa49-f51dc939c3c4" />
-
-
+<img width="1920" height="1080" alt="Screenshot 2025-09-30 141911" src="https://github.com/user-attachments/assets/232677d4-fe9e-4b54-a37b-f5b20554f09f" />
 
 
 # RESULT:
